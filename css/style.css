@@ -19,7 +19,7 @@
 
 body {
     font-family: var(--ft-poppis);
-    background-color: #f7f2f2;
+    background-color: #FAFAFA;
 }
 
 h1,
@@ -172,4 +172,14 @@ img {
         grid-column: 3 / 4;
         grid-row: 1 / 3;
     }
+}
+@media (min-width: 1400px) {
+    .fch-title {
+        font-size: 2rem;
+    }
+    
+    .fch-subtitle {
+        font-size: 2rem;
+    }
+    
 }
